@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
